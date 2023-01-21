@@ -1,4 +1,5 @@
 package ru.netology.sqr;
+
 public class Servicecalcsqrt {
     public int calcsqrt(int min, int max) {
         int counter = 0;
@@ -10,6 +11,6 @@ public class Servicecalcsqrt {
             }
         }
 
-    return counter;
+        return counter;
     }
 }
