@@ -1,3 +1,4 @@
+package ru.netology.sqr;
 public class SQRService {
     public static void main(String[] args) {
 
