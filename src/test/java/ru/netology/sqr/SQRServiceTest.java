@@ -3,7 +3,7 @@ package ru.netology.sqr;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SQRServicetest {
+public class SQRServiceTest {
 
     @Test
     public void testExpectedActualSQRT() {
