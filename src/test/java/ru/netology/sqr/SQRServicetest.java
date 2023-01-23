@@ -7,7 +7,7 @@ public class SQRServicetest {
 
     @Test
     public void testExpectedActualSQRT() {
-        Servicecalcsqrt service = new Servicecalcsqrt();
+        SQRService service = new SQRService();
         int expected = 0;
         int actual = service.calcsqrt(10, 99);
 
@@ -16,7 +16,7 @@ public class SQRServicetest {
 
     @Test
     public void test2ExpectedActualSQRT() {
-        Servicecalcsqrt service = new Servicecalcsqrt();
+        SQRService service = new SQRService();
         int expected = 3;
         int actual = service.calcsqrt(200, 300);
 
@@ -25,7 +25,7 @@ public class SQRServicetest {
 
     @Test
     public void test2NotEqualsSQRT() {
-        Servicecalcsqrt service = new Servicecalcsqrt();
+        SQRService service = new SQRService();
         int expected = 0;
         int unexpected = 2;
         int actual = service.calcsqrt(10, 99);

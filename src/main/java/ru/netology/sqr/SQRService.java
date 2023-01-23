@@ -1,11 +1,16 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public static void main(String[] args) {
+    public int calcsqrt(int min, int max) {
+        int counter = 0;
+        for (int i = 10; i <= 99; i++) {
+            int sqr = i * i;
+            if (min <= sqr & sqr <= max) {
+                counter++;
 
-        Servicecalcsqrt service = new Servicecalcsqrt();
-        System.out.println(service.calcsqrt(10, 99));
+            }
+        }
 
-
+        return counter;
     }
 }
